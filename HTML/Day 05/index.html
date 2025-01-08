@@ -9,12 +9,7 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap">
-    <script>
-        function myFunction() {
-          var popup = document.getElementById("myPopup");
-          popup.classList.toggle("show");
-        }
-        </script>
+   
 </head>
 
 <body>
@@ -36,8 +31,8 @@
                 <li><a href="#events">Events</a></li>
                 <li><a href="#contactus">Contact Us</a></li>
                 <li><a href="#pages">Pages</a></li>
-                <button class="member-btn" onclick="myFunction()">MEMBER LOGIN</button>
-            </ul>
+                <button class="member-btn" id="member-login">MEMBER LOGIN</button>
+               </ul>
         </nav>
     </header>
 
@@ -268,7 +263,7 @@
                      <input type="email" placeholder="Email address">
                 </div>
                 <textarea name="" id="" placeholder="Message"></textarea>
-                <button class="contacts-button">Submit Form</button>
+                <button class="contacts-button"">Submit Form</button>
             </form>
         </div>
 
@@ -324,7 +319,10 @@
             </path>
         </svg>
     </footer>
-    <script src="script.js"></script>
 </body>
+<script src="script.js">
+
+        
+</script>
 
 </html>

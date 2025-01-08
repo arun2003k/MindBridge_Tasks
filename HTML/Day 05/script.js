@@ -1,4 +1,8 @@
-function myFunction() {
-    var popup = document.getElementById("myPopup");
-    popup.classList.toggle("show");
-  }
+document.getElementById("member-login").addEventListener("click", function () {
+  toggleSidebar();
+});
+
+function toggleSidebar() {
+  var sidebar = document.getElementsByClassName("sidebar");  
+    sidebar.style.display = "block";
+}
